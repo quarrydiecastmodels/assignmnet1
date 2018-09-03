@@ -2,7 +2,8 @@
 
 ## Git Documentation:
 	
-	The layout of the git repository is fairly straight forward. The user clicks on the folder called "assignment" to view to the work
+	The layout of the git repository is fairly straight forward. 
+	The user clicks on the folder called "assignment" to view to the work
 
 
 ## Data Structures:
@@ -18,19 +19,10 @@
 ## Angular Architecture
 
 	The components define what view is being displayed to the screen.
-	Modules are used to import functionalities from other component pages
-	
-	```mermaid
-	sequenceDiagram
-	Alice ->> Bob: Hello Bob, how are you?
-	Bob-->>John: How about you John?
-	Bob--x Alice: I am good thanks!
-	Bob-x John: I am good thanks!
-	Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+	Modules are used to import functionalities from other component pages.
 
-	Bob-->Alice: Checking with John...
-	Alice->John: Yes... John, how are you?
-	```
+	For this to work. The components.ts all talk to the index.js to retrieve or add users.
+	
 
 
 

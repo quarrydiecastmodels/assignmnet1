@@ -1,6 +1,9 @@
 <h1>Login</h1>
 
-<form (submit)="login($event)">
-	<input [(ngModel)]="username" type="text" name="username" required />
-	<button>Login</button>
+<form id="form" (submit)="login($event)">
+  <div class="form-group">
+    <label>Username</label>
+    <input class="form-control" [(ngModel)]="username" type="text" name="username" required />
+  </div>
+  <button>Login</button>
 </form>
